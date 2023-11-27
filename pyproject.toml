@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "elasticsearch-stc-finance"
+version = "0.1.0"
+description = ""
+authors = ["Jama Saed <jama@ibm.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "3.0.0"
+langchain = "^0.0.340"
+elasticsearch = "^8.11.0"
+python-dotenv = "^1.0.0"
+ibm-watson-machine-learning = "^1.0.333"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
